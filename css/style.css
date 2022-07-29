@@ -1,6 +1,6 @@
 body {
 	font-family: 'Poppins', sans-serif;
-	background: #FFFFFF;
+	background: #F6F8F9;
 }
 /*header*/
 .header {
@@ -9,6 +9,8 @@ body {
 	width: 100%;
 	background: #F6F8F9;
 	z-index: 50;
+	top: 0;
+	left: 0;
 }
 .logo {
 	font-size: 13px;
@@ -38,4 +40,68 @@ body {
 	font-weight: bold;
 	opacity: 50%;
 	line-height: 20%;
+}
+
+/*section1*/
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.container-title {
+	font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #202124;
+    padding-top: 25px;
+}
+
+.left-block {
+	width: 360px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.middle-block {
+	width: 360px;
+	display: inline-block;
+	margin-right: 40px;
+}
+.right-block {
+	width: 360px;
+	display: inline-block;
+}
+.container-blocks {
+	margin-top: 40px;
+}
+.image-wraper {
+	position: relative;
+}
+.image-text {
+	color: #fff;
+	position: absolute;
+	font-size: 16px;
+	top: 28px;
+	left: 40px;
+}
+.text-wraper {
+	background: #fff;
+	height: 180px;
+	padding: 66px 40px;
+}
+.block-text {
+	width: 280px;
+	font-size: 13px;
+	line-height: 23px;
+	color: #A6ADB4;
+}
+.time-text {
+	display: inline-block;
+	margin-left: 10px;
+	color: #A6ADB4;
+	font-size: 13px;
+}
+.time {
+	margin-top: 10px;
 }
